@@ -50,45 +50,59 @@
       <h2 class="trends-title">Сейчас в тренде</h2>
       <div class="trends-container">
         <div class="trends-wrapper">
-          <img src="images/trend1.jpg" alt="Растения" class="trends-image">
+         
           <div class="trends-box">
             <ul class="list-trends">
-              <li class="list-trends-item">lifestyle</li>
-              <li class="list-trends-item">interior</li>
+              <li class="list-trend-item">
+                <a href="#0" class="list-trends-item">lifestyle</a>
+              </li>
+              <li class="list-trend-item">
+                <a href="#0" class="list-trends-item">interior</a>
+              </li>
             </ul>
-            <a href="#0" class="trends-box-title">Сейчас в тренде: сад на подоконнике</a>
+          <h2> <a href="#0" class="trends-box-title">Сейчас в тренде: сад на подоконнике</a></h2>
           </div>
         </div>
 
         <div class="trends-wrapper">
-          <img src="images/trend2.jpg" alt="Сыры" class="trends-image">
+          
           <div class="trends-box">
             <ul class="list-trends">
-              <li class="list-trends-item">food</li>
+              <li class="list-trend-item">
+                <a href="#0" class="list-trends-item">food</a>
+              </li>
             </ul>
-            <a href="#0" class="trends-box-title">Cыры на красивых картинках из интернета: какие они на вкус?</a>
+            <h2><a href="#0" class="trends-box-title">Cыры на красивых картинках из интернета: какие они на вкус?</a></h2>
           </div>
         </div>
 
         <div class="trends-wrapper">
-          <img src="images/trend3.jpg" alt="Поход в горы" class="trends-image">
+          
           <div class="trends-box">
             <ul class="list-trends">
-              <li class="list-trends-item">lifestyle</li>
-              <li class="list-trends-item">travel</li>
+              <li class="list-trend-item">
+                <a href="#0" class="list-trends-item">lifestyle</a>
+              </li>
+              <li class="list-trend-item">
+                <a href="#0" class="list-trends-item">travel</a>
+                </li>
             </ul>
-            <a href="#0" class="trends-box-title">Собираемся в первый поход в горы</a>
+            <h2><a href="#0" class="trends-box-title">Собираемся в первый поход в горы</a></h2>
           </div>
         </div>
 
         <div class="trends-wrapper">
-          <img src="images/trend4.jpg" alt="Лимоны в корзине" class="trends-image">
+          
           <div class="trends-box">
             <ul class="list-trends">
-              <li class="list-trends-item">food</li>
-              <li class="list-trends-item">health</li>
+              <li class="list-trend-item">
+                <a href="#0" class="list-trends-item">food</a>
+              </li>
+              <li class="list-trend-item">
+                <a href="#0" class="list-trends-item">health</a>
+              </li>
             </ul>
-            <a href="#0" class="trends-box-title">Сейчас в тренде: сколько витамина с в лимоне</a>
+          <h2> <a href="#0" class="trends-box-title">Сейчас в тренде: сколько витамина с в лимоне</a></h2>
           </div>
         </div>
 
@@ -291,7 +305,7 @@
               <span class="screen-reader-mail">Ваш email-адрес</span>
               <input class="mailing-list-input" placeholder="Ваш email-адрес" type="email" alt="Ваш email-адрес">
             </label>
-            <button class="mailing-list-btn" type="submit" alt="Подписаться">Подписаться</button>
+            <button class="mailing-list-btn" alt="Подписаться">Подписаться</button>
           </form>
         </section>
 
@@ -337,6 +351,7 @@
             </li>
           </ul>
         </section>
+        </aside>
     </div>
     <section class="products">
       <h2 class="products-title">Наши изделия</h2>
@@ -345,7 +360,7 @@
           <picture class="products-box-banner">
             <source srcset="images/shop-item-mobile1.jpg" media="(max-width: 640px)">
             <source srcset="images/shop-item-tablet1.jpg" media="(min-width: 641px) and (max-width: 1200px)">
-            <img class="products-box__img" src="images/shop-item-desk1.jpg" alt="Набор подушек">
+            <img class="products-box-banner__img" src="images/shop-item-desk1.jpg" alt="Набор подушек">
           </picture>
           <div class="products-box-content">
             <h2 class="products-box-title">Подушки на диван</h2>
@@ -359,7 +374,9 @@
                   800 р
                 </span>
               </div>
-              <button class="products-box-button">В магазин</button>
+              <div class="button">
+              <a class="products-box-button">В магазин</a>
+            </div>
             </div>
           </div>
         </div>
@@ -382,12 +399,14 @@
                   3500 р
                 </span>
               </div>
-              <button class="products-box-button">В магазин</button>
+              <div class="button">
+              <a class="products-box-button">В магазин</a>
+            </div>
             </div>
           </div>
         </div>
 
-        <div class="products-box box-3">
+        <div class="products-box">
           <picture class="products-box-banner">
             <source srcset="images/shop-item-mobile3.jpg" media="(max-width: 640px)">
             <source srcset="images/shop-item-tablet3.jpg" media="(min-width: 641px) and (max-width: 1200px)">
@@ -405,7 +424,9 @@
                   400 р
                 </span>
               </div>
-              <button class="products-box-button">В магазин</button>
+              <div class="button">
+              <a class="products-box-button">В магазин</a>
+            </div>
             </div>
           </div>
         </div>
@@ -443,42 +464,39 @@
       <h2 class="popup-title">Ваш фитбек</h2>
       <form name="popup-form">
         <fieldset class="popup-fieldset">
-          <label id="popup-label">
-
+          <label for="popup-label">
             <span class="popup-text">Как часто вы заходите на сайт?</span>
-            <div class="button-box">
-              <button class="button-popup" id="popup-label">Почти каждый день</button>
           </label>
-          <div class="button-content">
-            <a href="#">Почти каждый день</a>
-            <a href="#">Раз в несколько дней</a>
-            <a href="#">Раз в несколько недель</a>
-            <a href="#">Несколько раз в год</a>
-          </div>
-    </div>
+              <select name="choice" class="button-popup" id="popup-label">
+                <option selected>Почти каждый день</option>
+                <option value="Раз в несколько дней">Раз в несколько дней</option>
+                <option value="Раз в несколько недель">Раз в несколько недель</option>
+                <option value="Несколько раз в год">Несколько раз в год</option>
+               </select>            
 
     <span class="popup-text">Вы подписаны на e-mail рассылку?</span>
     <div class="input-container">
-      <label class="popup-radio">
-        <input class="input-radio" type="radio" name="yes">
+      <div class="input-box">
+        <input id="input-radio" type="radio" name="yes" class="input-radio">
         <span class="radio-img"></span>
-        <span class="radio-yes">Да</span>
-      </label>
-      <label class="popup-radio">
-        <input class="input-radio" type="radio" name="yes">
+        <label for="input-radio" class="radio-yes">Да</label>
+      </div>
+      <div class="input-box">
+        <input id="input-radio-2" type="radio" name="no" class="input-radio">
         <span class="radio-img"></span>
-        <span class="radio-yes">Нет</span>
-      </label>
+        <label for="input-radio-2" class="radio-yes">Нет</label>
+      </div>
     </div>
-
+    <label for="popup-3">
     <span class="popup-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-    <input placeholder="Может, больше рецептов?" type="text" class="entry-field">
-    <button class="submit-button" type="submit" alt="Подписаться">Отправить</button>
+    </label>
+    <input placeholder="Может, больше рецептов?" type="text" class="entry-field" id="popup-3">
+    <button class="submit-button" alt="Подписаться">Отправить</button>
     </fieldset>
     <button class="popup__close" type="button">Закрыть окно</button>
     </form>
   </div>
-  
+  </div>
 </body>
 
 </html>
