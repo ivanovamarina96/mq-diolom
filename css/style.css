@@ -223,7 +223,7 @@ a {
 .trends-wrapper {
   position: relative;
   width: 25%;
-  min-height: 349px;
+  min-height: 308px;
   box-sizing: border-box;
   display: flex;
   align-items: flex-end;
@@ -275,7 +275,7 @@ a {
   flex-direction: column;
   justify-content: flex-end;
   border: 2px solid #b59f5b;
-  padding: 39px 40px 37px 34px;
+  padding: 10% 11% 10% 10%;
   box-sizing: border-box;
   min-width: 100%;
 }
@@ -319,7 +319,7 @@ a {
   }
 
   .trends-box {
-    padding: 20px 40px 28px 34px;
+    padding: 10% 11% 10% 10%;
   }
 
   .trends-wrapper:nth-child(3n + 2),
@@ -365,7 +365,7 @@ a {
   .trends-wrapper {
     position: relative;
     width: 25%;
-    min-height: 349px;;
+    min-height: 308px;
     box-sizing: border-box;
     display: flex;
     align-items: flex-end;
