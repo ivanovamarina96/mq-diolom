@@ -334,7 +334,7 @@ a {
 
   .trends-wrapper {
     margin-left: 0;
-    min-height: 248px;
+    max-height: 248px;
   }
 
   .trends-wrapper:nth-child(n + 2) {
